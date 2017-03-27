@@ -1,0 +1,220 @@
+.title {
+  text-align: center;
+}
+
+#footer a:link {
+  color: black;
+}
+
+#footer a:visited {
+  color: black;
+}
+
+#footer a:hover {
+  color: orangered;
+}
+
+body {
+  background: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+}
+
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  /*optional background or border*/
+  width: 530px;
+  height: 500px;
+  border-radius: 20%;
+  background: none;
+}
+
+.tree {
+  position: absolute;
+  top: 36%;
+  left: 45%;
+  width: 10%;
+  height: 40%;
+  background: #5e0605;
+}
+
+.circle-1 {
+  position: absolute;
+  top: 26%;
+  left: 30%;
+  width: 20%;
+  height: 20%;
+  background: #0fd850;
+  border-radius: 50%;
+}
+
+.circle-2 {
+  position: absolute;
+  top: 26%;
+  right: 30%;
+  width: 20%;
+  height: 20%;
+  background: #0fd850;
+  border-radius: 50%;
+}
+
+.circle-3 {
+  position: absolute;
+  top: 14%;
+  left: 25%;
+  width: 20%;
+  height: 20%;
+  background: #0fd850;
+  border-radius: 50%;
+}
+
+.circle-4 {
+  position: absolute;
+  top: 14%;
+  right: 25%;
+  width: 20%;
+  height: 20%;
+  background: #0fd850;
+  border-radius: 50%;
+}
+
+.circle-5 {
+  position: absolute;
+  top: 4%;
+  left: 41%;
+  width: 20%;
+  height: 20%;
+  background: #0fd850;
+  border-radius: 50%;
+}
+
+.circle-6 {
+  position: absolute;
+  top: 19%;
+  left: 41%;
+  width: 20%;
+  height: 20%;
+  background: #0fd850;
+  border-radius: 50%;
+}
+
+.fruit-1 {
+  position: absolute;
+  top: 26%;
+  left: 30%;
+  width: 5%;
+  height: 5%;
+  background: orangered;
+  border-radius: 50%;
+  animation: fruit10 26s 1s 1;
+}
+
+.fruit-2 {
+  position: absolute;
+  top: 36%;
+  left: 28%;
+  width: 5%;
+  height: 5%;
+  background: orangered;
+  border-radius: 50%;
+  animation: fruit10 26s 3s 1;
+}
+
+.fruit-3 {
+  position: absolute;
+  top: 16%;
+  left: 38%;
+  width: 5%;
+  height: 5%;
+  background: orangered;
+  border-radius: 50%;
+  animation: fruit10 26s 5s 1;
+}
+
+.fruit-4 {
+  position: absolute;
+  top: 26%;
+  right: 30%;
+  width: 5%;
+  height: 5%;
+  background: orangered;
+  border-radius: 50%;
+  animation: fruit10 26s 7s 1;
+}
+
+.fruit-5 {
+  position: absolute;
+  top: 36%;
+  right: 37%;
+  width: 5%;
+  height: 5%;
+  background: orangered;
+  border-radius: 50%;
+  animation: fruit10 26s 9s 1;
+}
+
+.fruit-6 {
+  position: absolute;
+  top: 14%;
+  right: 38%;
+  width: 5%;
+  height: 5%;
+  background: orangered;
+  border-radius: 50%;
+  animation: fruit10 23s 11s 1;
+}
+
+.fruit-7 {
+  position: absolute;
+  top: 6%;
+  right: 46%;
+  width: 5%;
+  height: 5%;
+  background: orangered;
+  border-radius: 50%;
+  animation: fruit10 23s 13s 1;
+}
+
+.fruit-8 {
+  position: absolute;
+  top: 19%;
+  right: 48%;
+  width: 5%;
+  height: 5%;
+  background: orangered;
+  border-radius: 50%;
+  animation: fruit10 21s 15s 1;
+}
+
+.fruit-9 {
+  position: absolute;
+  top: 29%;
+  right: 53%;
+  width: 5%;
+  height: 5%;
+  background: orangered;
+  border-radius: 50%;
+  animation: fruit10 21s 16s 1;
+}
+
+.fruit-10 {
+  position: absolute;
+  top: 25%;
+  right: 42%;
+  width: 5%;
+  height: 5%;
+  background: orangered;
+  border-radius: 50%;
+  animation: fruit10 21s 17s 1;
+}
+
+@keyframes fruit10 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    top: 70%;
+    transform: rotate(360deg);
+    background: orange;
+  }
+}
